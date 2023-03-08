@@ -104,7 +104,7 @@ def main_apv():
         
     r1=requests.get("https://raw.githubusercontent.com/FerdousAkhtan/dummi/main/Apr.txt").text
     if key1 in r1:
-        hamii()
+        fm()
     else:
         os.system("clear")
         print(logo)
@@ -152,7 +152,7 @@ def hasil(OK,cp):
 	    input("\x1b[1;97mP R E S S  T O   B A C K ")
 	    hamii()
 
-def hamii():
+def fm():
     os.system('clear')
     print(logo)
     ipm = requests.get(url_ip).json()
