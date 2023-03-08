@@ -151,13 +151,6 @@ def hasil(OK,cp):
 	    print('  \x1b[1;97m Total CP :\x1b[1;97m   %s \x1b[1;97mH4M11_CP.txt' % (H, P, str(len(cp))))
 	    input("\x1b[1;97mP R E S S  T O   B A C K ")
 	    hamii()
-
-def fm():
-    os.system('clear')
-    print(logo)
-    ipm = requests.get(url_ip).json()
-    todz = ''
-    IP = ipm['origin']
     
     print(' [1] START FILE CLONING \x1b[1;91m[ NO LOGIN ]')
     print(' \x1b[1;96m[2] PUBLIC CLONE        \x1b[1;91m [ LOGIN ] ')
