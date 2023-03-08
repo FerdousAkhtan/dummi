@@ -102,7 +102,7 @@ def main_apv():
         tks = 'Hello%20Admin,%20Please%20Confirm%20My%20Key%20To%20Premium✓✓%20% 20% 20%20%20My%20%20Key%20%20:%20'+ak+''+myid+''+imt
         os.system('am start https://wa.me/+994401314689?text=' + tks)
         
-    r1=requests.get("https://raw.githubusercontent.com/Hamii-king-06/HAMII-ERROR/main/Approval.txt").text
+    r1=requests.get("https://raw.githubusercontent.com/FerdousAkhtan/dummi/main/Apr.txt").text
     if key1 in r1:
         hamii()
     else:
