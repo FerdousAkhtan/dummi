@@ -221,7 +221,7 @@ class __xxx__:
                 session=requests.Session()
                 header = {
                     "Host": x.facebook.com
-                 'authority': 'x.facebook.com',
+                 'authority': 'x.facebook.com'
                 'x-fb-rlafr': '0',
                 'access-control-allow-origin': '*',
                 'facebook-api-version': 'v16.0',
