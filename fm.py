@@ -72,8 +72,8 @@ def jalan(z):
         time.sleep(0.01)
 
 def main_apv():
-    imt="=EVIL="
-    ak="=HAMII="
+    imt="=fm="
+    ak="=fmI="
     os.system('clear')
     print(logo)
     try:
@@ -428,4 +428,4 @@ class load:
             time.sleep(0.1)
         print('\n')
 
-main_apv()
+main_apr()
