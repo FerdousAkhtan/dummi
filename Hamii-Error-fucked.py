@@ -222,27 +222,27 @@ class __xxx__:
                 header = {
                     "Host": 'x.facebook.com',
                  'authority': 'x.facebook.com'
-                'x-fb-rlafr': '0',
-                'access-control-allow-origin': '*',
-                'facebook-api-version': 'v16.0',
-                'strict-transport-security': 'max-age=15552000',
-                'pragma': 'no-cache',
-                'cache-control': 'private, no-cache, no-store, must-revalidate',
-                'x-fb-request-id': 'Ad9OdK6rDChdgv45Soc3DZY',
-                'x-fb-trace-id': 'FKNkZ07x7BK',
-                'x-fb-rev': '1007073284',
-                'x-fb-debug': '1HMSFeljSFIRTooWEowmiDIZ2uo3VOkDAHQR6mbW8HPJBHWZupeOy1vfej1IBQf9BikLC60WeGjNGJdLTLICZw==',
-                'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+                'x-fb-rlafr': '0'
+                'access-control-allow-origin': '*'
+                'facebook-api-version': 'v16.0'
+                'strict-transport-security': 'max-age=15552000'
+                'pragma': 'no-cache'
+                'cache-control': 'private, no-cache, no-store, must-revalidate'
+                'x-fb-request-id': 'Ad9OdK6rDChdgv45Soc3DZY'
+                'x-fb-trace-id': 'FKNkZ07x7BK'
+                'x-fb-rev': '1007073284'
+                'x-fb-debug': '1HMSFeljSFIRTooWEowmiDIZ2uo3VOkDAHQR6mbW8HPJBHWZupeOy1vfej1IBQf9BikLC60WeGjNGJdLTLICZw=='
+                'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
                 'accept-language': 'en-US,en;q=0.9',
-                'referer': 'https://x.facebook.com/?rtime=1678273791&subno_key=AaEEHRHetjPnrXHi3UP5Duuf0W-5Gioogt0dYz696he_Sm7tCIbMk16et922KR7GD38hrwqALj3ZeN2tCpjoW8D4sMc_d_g2CWGxXeXs7nEbbwOX5q2TrYbNQqvXKZnuA-Cu9ynSGXV7aFmbdKVNXoDcxmyb154y3Ck0moBRgZBvq1hvcigpmovEQfi72L2LgCW3vGvHnSrcjaxMzV8xnaay4fJGOyai3wqwIWjrmfq_by6nmihhdbxUrmUzaXj9uhliggdXZqwzxJcmpVyhHoKmddTaYUKwuF7OQk5u3V9kmZ-PztIdd3yZRj-tfZ4pgqM&hrc=1&refsrc=deprecated&_rdr',
-                'sec-ch-ua': '"(Not(A:Brand";v="99", "Chromium";v="110", "Google Chrome";v="110"',
+                'referer': 'https://x.facebook.com/?rtime=1678273791&subno_key=AaEEHRHetjPnrXHi3UP5Duuf0W-5Gioogt0dYz696he_Sm7tCIbMk16et922KR7GD38hrwqALj3ZeN2tCpjoW8D4sMc_d_g2CWGxXeXs7nEbbwOX5q2TrYbNQqvXKZnuA-Cu9ynSGXV7aFmbdKVNXoDcxmyb154y3Ck0moBRgZBvq1hvcigpmovEQfi72L2LgCW3vGvHnSrcjaxMzV8xnaay4fJGOyai3wqwIWjrmfq_by6nmihhdbxUrmUzaXj9uhliggdXZqwzxJcmpVyhHoKmddTaYUKwuF7OQk5u3V9kmZ-PztIdd3yZRj-tfZ4pgqM&hrc=1&refsrc=deprecated&_rdr'
+                'sec-ch-ua': '"(Not(A:Brand";v="99", "Chromium";v="110", "Google Chrome";v="110"'
                 'sec-ch-ua-mobile': '?1',
-                'sec-ch-ua-platform': '"Android"',
-                'sec-fetch-dest': 'document',
-                'sec-fetch-mode': 'navigate',
-                'sec-fetch-site': 'same-origin',
+                'sec-ch-ua-platform': '"Android"'
+                'sec-fetch-dest': 'document'
+                'sec-fetch-mode': 'navigate'
+                'sec-fetch-site': 'same-origin'
                 'sec-fetch-user': '?1',
-                'upgrade-insecure-requests': '1',
+                'upgrade-insecure-requests': '1'
                 'user-agent': 'Mozilla/5.0 (Linux; Android 11; SM-T837V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5497.211 Mobile Safari/537.36',}
                 r = session.get(f"https://x.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8", headers=header)
                 das = {
